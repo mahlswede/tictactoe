@@ -56,7 +56,7 @@ class Tictactoe extends Game
     }
 
 	/**
-	 * Run the game until it's tied or someone has won
+	 * Run the game until it is tied or someone has won
      * @param array $gamedata
 	 */
 	function playGame($gamedata)
