@@ -1,0 +1,67 @@
+/* format overall page body */
+body {
+	margin: auto;
+	padding: 10px;
+	font-size: 12px;
+	font-family: Arial, Helvetica, Verdana;
+}
+
+/* format title header */
+h2 {
+	color: #1779ba;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* format error messages */
+.errorMsg {
+	font-size: 0.9rem;
+	margin: 5px;
+	text-align: center;
+	color: #333333;
+	background-color: #a0d3e8;
+	border: 1px solid #61b6d9;;
+	padding: 0.85em 1em;
+}
+
+/* format success messages */
+.successMsg {
+	font-size: 0.9rem;
+	margin: 5px;
+	text-align: center;
+	color: white;
+	background-color: #43AC6A;
+	border: 1px solid #368a55;
+	padding: 0.85em 1em;
+}
+
+/* format the board */
+#gameBoard {
+	margin: auto;
+	width: 210px;
+}
+
+.gameBoard_cell {
+	float: left;
+	width: 70px;
+	height: 70px;
+	text-align: center;
+	border: 1px solid #757272;
+
+}
+
+.gameBoard_cell select{
+	margin-top: 15px;
+}
+
+.break {
+	clear: both;
+}
+
+/* wrapper around all game content */
+#content {
+	margin: auto;
+	padding: 10px;
+	width: 60%;
+}
