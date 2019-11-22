@@ -12,7 +12,7 @@ if (!isset($_SESSION['game']['tictactoe']))
 ?>
 <html>
 	<head>
-		<title>Tic Tac Toe Spiel</title>
+		<title>Tic Tac Toe</title>
         <link rel="stylesheet" type="text/css" href="public/styles/foundation.css" />
         <link rel="stylesheet" type="text/css" href="public/styles/style.css" />
 	</head>
